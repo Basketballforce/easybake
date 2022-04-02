@@ -1,0 +1,28 @@
+.win-grid {
+    border: 1px solid white;
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 5rem;
+  }
+  
+  .win-btn {
+    padding: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+    background: black;
+    color: white;
+    border: 1px solid transparent;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .white-color{
+    color: white;
+  }
