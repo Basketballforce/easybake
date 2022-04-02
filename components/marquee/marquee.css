@@ -1,0 +1,28 @@
+ 
+ .marquee-wrapper {
+	overflow-x: hidden;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+
+  .marquee-wrapper::-webkit-scrollbar { /* WebKit */
+	width: 0;
+	height: 0;
+}
+
+  .marquee {
+	display: flex;
+	animation-name: marquee;
+	animation-duration: 20s;
+	animation-direction: alternate;
+	/* could change to use one direction for animation-directiona and just duplicate elements a ton */
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transform: translateX(0);
+  }
+
+  
+  @keyframes marquee {
+	from {transform: translateX(0);}
+	to {transform: translateX(-100%);}
+  }
