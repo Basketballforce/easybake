@@ -1,0 +1,8 @@
+#progress-bar{
+    position: fixed;
+    height: 3%;
+    left: 0;
+    top: 0;
+    opacity: 0.75;
+    background: linear-gradient(45deg, #ff0e0e, #003dff);
+}
