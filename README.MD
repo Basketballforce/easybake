@@ -8,9 +8,9 @@ The goal of this repo is to plainly & simply recreate these components using van
 Currently focused on elements found on landing pages. Broken into animated elements and fixed elements
 
 # Components
-..*Marquee (or sliding/caruosel)
-..*3dtilt
-..*glassmorphism
-..*windows hover effect
-..*absolute progress bar
-..*page scroll triggers
+-Marquee (or sliding/caruosel)
+-3dtilt
+-glassmorphism
+-windows hover effect
+-absolute progress bar
+-page scroll triggers
