@@ -9,8 +9,13 @@ Currently focused on elements found on landing pages. Broken into animated eleme
 
 # Components
 -Marquee (or sliding/caruosel)
+
 -3dtilt
+
 -glassmorphism
+
 -windows hover effect
+
 -absolute progress bar
+
 -page scroll triggers
