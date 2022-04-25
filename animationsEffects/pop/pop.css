@@ -1,0 +1,25 @@
+.pop-element:hover{
+    -webkit-animation-name: pop;
+    animation-name: pop;
+    -webkit-animation-duration: .25s;
+    animation-duration: .25s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+
+@-webkit-keyframes pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+}
+
+@keyframes pop {
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+}
