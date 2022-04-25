@@ -19,3 +19,8 @@ Currently focused on elements found on landing pages. Broken into animated eleme
 -absolute progress bar
 
 -page scroll triggers
+
+
+# Cool Libraries
+- https://kenwheeler.github.io/slick/
+    - slick carousel library that can be used to make a marquee
