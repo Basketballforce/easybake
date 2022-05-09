@@ -1,0 +1,149 @@
+.integration {
+    -webkit-animation: circular 6s linear infinite normal;
+    animation: circular 6s linear infinite normal;
+    position: absolute;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+.integration>img {
+    /* border-radius: 49%; */
+    object-fit: contain;
+    border-radius: 50%;
+    transition: ease .5s;
+    border: 2px solid #d2e1e800;
+}
+
+.integration-text {
+    font-family: monospace;
+    text-align: center;
+    color: #4267B2;
+}
+
+.integration:hover>img {
+    transform: scale(1.3);
+    transition: ease .5s;
+    border-color: #4267B2;
+    box-shadow: 0 0 20px -3px #173647c9;
+}
+
+.integration:hover>.integration-details {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: ease 0.1s;
+}
+
+#integration-1-container{
+    -webkit-animation: scale-opacity-pop-in 3s linear normal;
+    animation: scale-opacity-pop-in 3s linear normal;
+    position: absolute;
+    animation-iteration-count: 5;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+
+}
+
+.center-logo {
+    margin: auto;
+    width: 150;
+    display: block;
+}
+
+
+.integration-container {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    margin-top: 5%;
+    background-image: url(https://smartbear.com/smartbearbrand/media/images/backgrounds/patterns/bg-gradient-hexagon.png);
+    background-position: center;
+    padding: 150px 50px 150px 50px;
+}
+
+.integration-details {
+    border-radius: 50px;
+    transform: scale(0);
+    transform: scale(0);
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    width: 160px;
+    left: calc(50% - 80px);
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 6px;
+    padding: 6px 0px 6px 0px;
+    line-height: 22px;
+    text-align: center;
+
+    -webkit-animation: show-integrations 10s linear infinite normal;
+    animation: show-integrations 10s linear infinite normal;
+}
+
+.integration-details>p {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+#integration-1 {
+    right: 65%;
+}
+
+#integration-1>img {
+    height: 120;
+    width: 120;
+}
+
+
+#integration-2 {
+    top: 65%;
+    left: 65%;
+    animation-delay: 2s;
+}
+
+#integration-2>img {
+    height: 80;
+    width: 80;
+    padding: 4px;
+}
+
+
+
+
+@keyframes circular {
+    from {
+        -webkit-transform: rotate(0) translateX(4px) rotate(0);
+        transform: rotate(0) translateX(4px) rotate(0)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg) translateX(4px) rotate(-360deg);
+        transform: rotate(360deg) translateX(4px) rotate(-360deg)
+    }
+}
+
+/*extraneous css below*/
+
+.text-center {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.feather {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+}
