@@ -34,17 +34,6 @@
     transition: ease 0.1s;
 }
 
-#integration-1-container{
-    -webkit-animation: scale-opacity-pop-in 3s linear normal;
-    animation: scale-opacity-pop-in 3s linear normal;
-    position: absolute;
-    animation-iteration-count: 5;
-    transition: -webkit-transform .2s ease;
-    transition: transform .2s ease;
-    transition: transform .2s ease, -webkit-transform .2s ease;
-
-}
-
 .center-logo {
     margin: auto;
     width: 150;
