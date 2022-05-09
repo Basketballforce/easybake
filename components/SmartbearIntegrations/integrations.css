@@ -34,6 +34,26 @@
     transition: ease 0.1s;
 }
 
+
+.active-integration {
+    transform: scale(1.3);
+    transition: ease .5s;
+    border-color: #4267B2;
+}
+
+.active-integration>img {
+    transform: scale(1.3);
+    transition: ease .5s;
+    border-color: #4267B2;
+    box-shadow: 0 0 20px -3px #173647c9;
+}
+
+.active-integration>.integration-details {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: ease 0.1s;
+}
+
 .center-logo {
     margin: auto;
     width: 150;
@@ -46,9 +66,9 @@
     width: 80%;
     position: relative;
     margin-top: 5%;
-    background-image: url(https://smartbear.com/smartbearbrand/media/images/backgrounds/patterns/bg-gradient-hexagon.png);
-    background-position: center;
     padding: 150px 50px 150px 50px;
+    background: linear-gradient(45deg, #ffffff, #a6ceff);
+    border-radius: 10px;
 }
 
 .integration-details {
@@ -106,7 +126,46 @@
     padding: 4px;
 }
 
+#integration-3 {
+    bottom: 65%;
+    right: 65%;
+    animation-delay: 2s;
+}
 
+#integration-3>img {
+    height: 100;
+    width: 100;
+    padding: 6px;
+}
+
+#integration-4 {
+    bottom: 65%;
+    left: 65%;
+    animation-delay: 2s;
+}
+
+#integration-4>img {
+    height: 90;
+    width: 90;
+    padding: 16px;
+}
+
+#integration-5 {
+    bottom: 75%;
+    left: 42%;
+    animation-delay: 2s;
+}
+
+#integration-5>img {
+    height: 70;
+    width: 70;
+    padding: 15px;
+}
+
+.feather {
+    margin-top: -0.1rem;
+    margin-left: 0.5rem;
+}
 
 
 @keyframes circular {
@@ -121,6 +180,51 @@
     }
 }
 
+
+@keyframes scale-opacity-pop-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    40% {
+        opacity: .7;
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    50% {
+        opacity: .7;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    55% {
+        opacity: 1;
+        -webkit-transform: scale(.6);
+        transform: scale(.6)
+    }
+
+    70% {
+        opacity: 1;
+        -webkit-transform: scale(.95);
+        transform: scale(.95)
+    }
+
+    85% {
+        opacity: 1;
+        -webkit-transform: scale(.85);
+        transform: scale(.85)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(.85);
+        transform: scale(.85)
+    }
+}
+
 /*extraneous css below*/
 
 .text-center {
@@ -128,11 +232,15 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+h1{
+    color: white;
+}
+
 .mb-5 {
     margin-bottom: 5rem;
 }
 
-.feather {
-    margin-top: -0.1rem;
-    margin-left: 0.5rem;
+:root{
+    background: #01080f;
+    background-image: linear-gradient(45deg, #0567e1d4, #ffffff00);
 }
